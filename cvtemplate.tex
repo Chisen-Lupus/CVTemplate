@@ -1,0 +1,126 @@
+\documentclass[10.5pt]{article}
+\usepackage[slantfont, boldfont]{xeCJK}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[left=0.3in,top=0.8in,right=0.3in,bottom=0.8in]{geometry} % Document margins
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    citecolor = black,      
+    urlcolor=blue,
+    }
+\linespread{1.1}%行距 1
+\setlength{\parskip}{-1.5ex}%端距
+\setlength{\parindent}{0em}%缩进
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\chead{
+    {\bf\underline{\large{<your name>} (<姓名>)}}\\
+    \vspace{2ex}
+    tel: (853)-<your tel> | e-mail: \href{mailto:<your email address>}{<your email address>} | web: \href{<your website>}{<your website>}
+}
+\cfoot{\thepage\hspace{1pt} OF \pageref*{LastPage}}
+\renewcommand\headrulewidth{0pt}
+\setlength{\headheight}{0.5in}%改变数值好像只影响第一页 但加上之后其余页就同步了
+\setlength{\footskip}{5ex}%加上之后其余页就同步了
+\setlength{\headsep}{2ex}
+\usepackage{titlesec}
+\titleformat{\section}{\bf}{}{0em}{}[\hrule]
+\usepackage{lastpage}
+
+\begin{document}
+
+%\setlength{\headsep}{0pt}
+
+\begin{section}{SUMMARY OF QUALIFICATIONS}
+
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item <your skills>
+\end{itemize}
+
+\end{section} 
+
+% EDUCATION
+
+\begin{section}{EDUCATION}
+
+\textbf{<your degree> \hfill <your school> (<location>)\hfill <date> - <date>}
+
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item \textbf{Major in <your major>} (\textbf{<your GPA>})
+    \item Coursework: <your relative courseworks>
+    \item <other information>
+\end{itemize}
+
+\end{section}
+
+% AWARDS
+
+\begin{section}{AWARDS}
+
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item <your award>
+    \item <date>, <your award>
+\end{itemize}
+
+\end{section}
+
+% Experiences
+
+\begin{section}{EXPERIENCES}
+
+\textbf{Research Assistant \hfill <institute> (<location>) \hfill <date> - <date>}
+
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item Supervisor - \href{<his website>}{Professor <his name>}
+    \item <details>
+\end{itemize}
+
+% \newpage
+
+\end{section}
+
+% Publications
+
+\begin{section}{PUBLICATIONS}
+    
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item <your publications, bold your name, then italic and hyperlink its title>
+\end{itemize}
+
+\end{section}
+
+% COMMUNITY WORK
+
+\begin{section}{COMMUNITY WORK}
+
+\textbf{<position> \hfill <institute> (<location>) \hfill <date> - <date>}
+
+\begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+    \item <details>
+\end{itemize}
+
+\end{section}
+
+% HOBBIES AND INTERESTS
+
+\begin{section}{HOBBIES AND INTERESTS}
+
+    \begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+        \item <your hobbies>
+    \end{itemize}
+    
+\end{section}
+
+\begin{section}{<OTHERS>}
+
+    \begin{itemize}[leftmargin=1.5em]\itemsep -0.5ex
+        \item <others>
+    \end{itemize}
+    
+\end{section}
+
+\end{document}
