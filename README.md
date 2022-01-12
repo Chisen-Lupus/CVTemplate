@@ -1,7 +1,9 @@
 # CVTemplate
 
-A single file of template of CV inspired by `resume.cls`. Add your information to replace `<angle bracketed>` content with your own information. 
+A single-file template of CV written in `article`. However, your name and addresses belongs to the page header, so it would appear in every page. Several Chinese character are allowed. 
 
-The result is shown below: 
+To use it, just add your information to replace `<angle bracketed>` content with your own information. 
+
+The result should be like below: 
 
 ![image](https://github.com/Chisen-Lupus/CVTemplate/blob/main/cvtemplate.jpg)
